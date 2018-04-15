@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_pedido_adm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        card_view:cardElevation="8dp"
+        card_view:cardBackgroundColor="@color/colorPrimaryLight"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="8dp">
+        <RelativeLayout
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:text="Código do Pedido: "
+            android:id="@+id/tv_codigo_pedido_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_toRightOf="@id/tv_codigo_pedido_adm"
+                android:id="@+id/tv_codigo_pedidoData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_codigo_pedido_adm"
+            android:text="Status: "
+            android:id="@+id/tv_status_pedido_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_codigo_pedidoData_adm"
+                android:layout_toRightOf="@id/tv_status_pedido_adm"
+                android:id="@+id/tv_status_pedidoData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_status_pedido_adm"
+            android:text="Quantidade de itens: "
+            android:id="@+id/tv_qtd_pedido_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_status_pedido_adm"
+                android:layout_toRightOf="@id/tv_qtd_pedido_adm"
+                android:id="@+id/tv_qtd_pedidoData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_qtd_pedido_adm"
+            android:text="Total: R$ "
+            android:id="@+id/tv_total_pedido_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_qtd_pedido_adm"
+                android:layout_toRightOf="@id/tv_total_pedido_adm"
+                android:id="@+id/tv_total_pedidoData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_total_pedido_adm"
+            android:text="Forma de pagamento: "
+            android:id="@+id/tv_tipo_pagamento_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_total_pedido_adm"
+                android:layout_toRightOf="@id/tv_tipo_pagamento_adm"
+                android:id="@+id/tv_tipo_pagamentoData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_tipo_pagamento_adm"
+            android:text="Cliente: "
+            android:id="@+id/tv_cliente_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_tipo_pagamento_adm"
+                android:layout_toRightOf="@id/tv_cliente_adm"
+                android:id="@+id/tv_clienteData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/navigationBarColor"
+            android:layout_below="@id/tv_cliente_adm"
+            android:text="Setor: "
+            android:id="@+id/tv_setor_adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/navigationBarColor"
+                android:layout_below="@id/tv_cliente_adm"
+                android:layout_toRightOf="@id/tv_setor_adm"
+                android:id="@+id/tv_setorData_adm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

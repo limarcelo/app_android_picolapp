@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IceApp</string>
+    <string name="title_activity_home">PicolApp</string>
+    <string name="title_activity_detalhe">Detalhes do Produto</string>
+    <string name="produtos">Produtos</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="carrinho">Carrinho</string>
+    <string name="title_activity_carrinho">Carrinho</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome_pedido">Nome do Produto</string>
+    <string name="valor_produto">Valor do Produto</string>
+    <string name="listar">Listar</string>
+    <string name="fechar">Fechar</string>
+    <string name="title_activity_carrinho_lista">Itens do Carrinho</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string-array name="setor">
+        <item>T.I</item>
+        <item>Jurídico</item>
+        <item>Financeiro</item>
+        <item>Protocolo</item>
+        <item>A. Integrado</item>
+        <item>Ouvidoria</item>
+        <item>Credenciamento</item>
+        <item>Contas Médicas</item>
+    </string-array>
+    <string name="title_activity_adm">Modo Administrador</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sair</string>
+</resources>

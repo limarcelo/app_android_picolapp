@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_titulo_cadastro_produto"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="CADASTRO DE PRODUTO"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/retangulo"/>
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/tv_titulo_cadastro_produto"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/et_cadastro_produto_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:hint="Nome do Produto"/>
+
+    <EditText
+        android:textAlignment="textStart"
+        android:numeric="decimal"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/et_cadastro_produto_nome"
+        android:layout_centerVertical="true"
+        android:id="@+id/et_cadastro_produto_preco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço R$"/>
+
+    <TextView
+        android:layout_below="@id/et_cadastro_produto_preco"
+        android:id="@+id/tv_info"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Você deve informar um nome válido de acordo com o catálogo de produtos para cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/retangulo"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv_info"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/windowBackground"
+        android:background="@color/primary"
+        android:text="Cadastrar Produto"
+        android:id="@+id/btn_cadastrar_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

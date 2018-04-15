@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_shopping_Car"
+        android:layout_width="250dp"
+        android:layout_height="315dp"
+        android:layout_marginTop="10dp"
+        card_view:cardElevation="8dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnCar"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/carr"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/carr"/>
+
+            <TextView
+                android:id="@+id/text_car"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:layout_marginTop="260dp"
+                android:text="Você pode tocar no carrinho para ver os itens"
+                android:textSize="22sp"
+                android:textColor="@color/colorPrimary"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_total"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="20dp"
+        android:layout_below="@id/card_view_shopping_Car">
+
+        <TextView
+            android:id="@+id/text_total"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+
+        android:textStyle="bold"
+        android:id="@+id/tv_titulo_contas_receber"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="CONTAS A RECEBER"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/retangulo"/>
+
+    <TextView
+        android:textColor="@color/navigationBarColor"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_titulo_contas_receber"
+        android:id="@+id/tv_info_contas_receber"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Selecione o cliente para verificar os débitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginBottom="10dp"
+        android:id="@+id/view_cr"
+        android:layout_below="@id/tv_info_contas_receber"
+        android:background="@color/md_blue_grey_400"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></View>
+
+    <ListView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_cr"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_contas_receber"></ListView>
+
+
+</RelativeLayout>

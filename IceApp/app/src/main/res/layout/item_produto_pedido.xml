@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_detalhe_produto"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <View android:layout_below="@id/img_detalhe_produto"
+        android:background="@color/md_blue_grey_400"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="50dp"></View>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="13dp"
+        android:layout_toRightOf="@id/img_detalhe_produto"
+        android:id="@+id/tv_detalhe_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/tv_detalhe_descricao"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="11dp"
+        android:text="Quantidade: "
+        android:layout_toRightOf="@id/img_detalhe_produto"
+        android:id="@+id/tv_titulo_detalhe_quantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_below="@+id/tv_detalhe_descricao"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="11dp"
+        android:layout_toRightOf="@id/tv_titulo_detalhe_quantidade"
+        android:id="@+id/tv_detalhe_quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/carrinho_item_activity"
+    tools:context="br.com.projetofinal.iceapp.activites.CarrinhoItemActivity">
+
+
+    <ListView
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="1550px"
+        android:id="@+id/lv_carrinho"></ListView>
+
+    <Button
+
+        android:layout_below="@id/lv_carrinho"
+        android:textColor="@color/windowBackground"
+        android:background="#00C853"
+        android:layout_alignParentBottom="true"
+        android:text="Finalizar Pedido"
+        android:id="@+id/btn_fazer_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+</RelativeLayout>
